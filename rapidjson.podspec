@@ -88,7 +88,7 @@ A fast JSON parser/generator for C++ with both SAX/DOM style API
   s.source_files  = "include/rapidjson/**/*.{h,cpp}"
   s.exclude_files = "include/rapidjson/msinttypes/*.*"
 # s.public_header_files = "*.h"
-
+  s.header_mappings_dir = "include"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
